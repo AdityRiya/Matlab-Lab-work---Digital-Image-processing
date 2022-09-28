@@ -1,0 +1,6 @@
+r = imread('lab3_a.tif');
+c = 1;
+I = c * log(double(1+r));
+figure,
+subplot(1,2,1),imshow(r),title('origonal image');
+subplot(1,2,2),imshow(I),title('output image');
